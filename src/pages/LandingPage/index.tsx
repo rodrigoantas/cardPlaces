@@ -45,14 +45,9 @@ const LandingPage: React.FC = () => {
 
   const [editModalIsOpen, setEditModalIsOpen] = useState(false);
 
-  const sendData = useCallback(
-    async (data: IsendData): Promise<void> => {
-      console.log(data);
-      await setEditingData(data);
-      console.log(editingData);
-    },
-    [editingData],
-  );
+  const sendData = useCallback(async (data: IsendData): Promise<void> => {
+    setEditingData(data);
+  }, []);
 
   const toggleEditModal = useCallback((): void => {
     setEditModalIsOpen(!editModalIsOpen);
@@ -113,9 +108,6 @@ const LandingPage: React.FC = () => {
     async (card: ICard): Promise<void> => {
       try {
         toggleEditModal();
-        // console.log(card);
-        // console.log(card);
-        console.log(editingData);
 
         const response = await api.put(`/${card.id}`, {
           ...card,
@@ -133,10 +125,6 @@ const LandingPage: React.FC = () => {
       } catch (err) {
         console.log(err);
       }
-
-      // console.log(card);
-
-      // console.log(editingData);
     },
     [toggleEditModal, editingData, cards],
   );

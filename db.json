@@ -1,56 +1,844 @@
 {
   "countries": [
     {
-      "date": "12/3123",
-      "local": "21312321999999",
       "country": {
-        "name": "Algeria",
+        "name": "Germany",
         "topLevelDomain": [
-          ".dz"
+          ".de"
         ],
-        "alpha2Code": "DZ",
-        "alpha3Code": "DZA",
+        "alpha2Code": "DE",
+        "alpha3Code": "DEU",
         "callingCodes": [
-          "213"
+          "49"
         ],
-        "capital": "Algiers",
+        "capital": "Berlin",
         "altSpellings": [
-          "DZ",
-          "Dzayer",
-          "Algérie"
+          "DE",
+          "Federal Republic of Germany",
+          "Bundesrepublik Deutschland"
         ],
-        "region": "Africa",
-        "subregion": "Northern Africa",
-        "population": 40400000,
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "population": 81770900,
         "latlng": [
-          28,
-          3
+          51,
+          9
         ],
-        "demonym": "Algerian",
-        "area": 2381741,
-        "gini": 35.3,
+        "demonym": "German",
+        "area": 357114,
+        "gini": 28.3,
         "timezones": [
           "UTC+01:00"
         ],
         "borders": [
-          "TUN",
-          "LBY",
-          "NER",
-          "ESH",
-          "MRT",
-          "MLI",
-          "MAR"
+          "AUT",
+          "BEL",
+          "CZE",
+          "DNK",
+          "FRA",
+          "LUX",
+          "NLD",
+          "POL",
+          "CHE"
         ],
-        "nativeName": "الجزائر",
-        "numericCode": "012",
+        "nativeName": "Deutschland",
+        "numericCode": "276",
         "currencies": [
           {
-            "code": "DZD",
-            "name": "Algerian dinar",
-            "symbol": "د.ج"
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
           }
         ],
         "languages": [
+          {
+            "iso639_1": "de",
+            "iso639_2": "deu",
+            "name": "German",
+            "nativeName": "Deutsch"
+          }
+        ],
+        "translations": {
+          "de": "Deutschland",
+          "es": "Alemania",
+          "fr": "Allemagne",
+          "ja": "ドイツ",
+          "it": "Germania",
+          "br": "Alemanha",
+          "pt": "Alemanha",
+          "nl": "Duitsland",
+          "hr": "Njemačka",
+          "fa": "آلمان"
+        },
+        "flag": "https://restcountries.eu/data/deu.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EU",
+            "name": "European Union",
+            "otherAcronyms": [],
+            "otherNames": []
+          }
+        ],
+        "cioc": "GER"
+      },
+      "local": "Berlim",
+      "date": "11/2021",
+      "id": 1
+    },
+    {
+      "country": {
+        "name": "Brazil",
+        "topLevelDomain": [
+          ".br"
+        ],
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA",
+        "callingCodes": [
+          "55"
+        ],
+        "capital": "Brasília",
+        "altSpellings": [
+          "BR",
+          "Brasil",
+          "Federative Republic of Brazil",
+          "República Federativa do Brasil"
+        ],
+        "region": "Americas",
+        "subregion": "South America",
+        "population": 206135893,
+        "latlng": [
+          -10,
+          -55
+        ],
+        "demonym": "Brazilian",
+        "area": 8515767,
+        "gini": 54.7,
+        "timezones": [
+          "UTC-05:00",
+          "UTC-04:00",
+          "UTC-03:00",
+          "UTC-02:00"
+        ],
+        "borders": [
+          "ARG",
+          "BOL",
+          "COL",
+          "GUF",
+          "GUY",
+          "PRY",
+          "PER",
+          "SUR",
+          "URY",
+          "VEN"
+        ],
+        "nativeName": "Brasil",
+        "numericCode": "076",
+        "currencies": [
+          {
+            "code": "BRL",
+            "name": "Brazilian real",
+            "symbol": "R$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "pt",
+            "iso639_2": "por",
+            "name": "Portuguese",
+            "nativeName": "Português"
+          }
+        ],
+        "translations": {
+          "de": "Brasilien",
+          "es": "Brasil",
+          "fr": "Brésil",
+          "ja": "ブラジル",
+          "it": "Brasile",
+          "br": "Brasil",
+          "pt": "Brasil",
+          "nl": "Brazilië",
+          "hr": "Brazil",
+          "fa": "برزیل"
+        },
+        "flag": "https://restcountries.eu/data/bra.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "USAN",
+            "name": "Union of South American Nations",
+            "otherAcronyms": [
+              "UNASUR",
+              "UNASUL",
+              "UZAN"
+            ],
+            "otherNames": [
+              "Unión de Naciones Suramericanas",
+              "União de Nações Sul-Americanas",
+              "Unie van Zuid-Amerikaanse Naties",
+              "South American Union"
+            ]
+          }
+        ],
+        "cioc": "BRA"
+      },
+      "local": "Recife",
+      "date": "11/2022",
+      "id": 2
+    },
+    {
+      "country": {
+        "name": "Italy",
+        "topLevelDomain": [
+          ".it"
+        ],
+        "alpha2Code": "IT",
+        "alpha3Code": "ITA",
+        "callingCodes": [
+          "39"
+        ],
+        "capital": "Rome",
+        "altSpellings": [
+          "IT",
+          "Italian Republic",
+          "Repubblica italiana"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "population": 60665551,
+        "latlng": [
+          42.83333333,
+          12.83333333
+        ],
+        "demonym": "Italian",
+        "area": 301336,
+        "gini": 36,
+        "timezones": [
+          "UTC+01:00"
+        ],
+        "borders": [
+          "AUT",
+          "FRA",
+          "SMR",
+          "SVN",
+          "CHE",
+          "VAT"
+        ],
+        "nativeName": "Italia",
+        "numericCode": "380",
+        "currencies": [
+          {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "it",
+            "iso639_2": "ita",
+            "name": "Italian",
+            "nativeName": "Italiano"
+          }
+        ],
+        "translations": {
+          "de": "Italien",
+          "es": "Italia",
+          "fr": "Italie",
+          "ja": "イタリア",
+          "it": "Italia",
+          "br": "Itália",
+          "pt": "Itália",
+          "nl": "Italië",
+          "hr": "Italija",
+          "fa": "ایتالیا"
+        },
+        "flag": "https://restcountries.eu/data/ita.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EU",
+            "name": "European Union",
+            "otherAcronyms": [],
+            "otherNames": []
+          }
+        ],
+        "cioc": "ITA"
+      },
+      "local": "Roma",
+      "date": "11/2023",
+      "id": 3
+    },
+    {
+      "country": {
+        "name": "Belgium",
+        "topLevelDomain": [
+          ".be"
+        ],
+        "alpha2Code": "BE",
+        "alpha3Code": "BEL",
+        "callingCodes": [
+          "32"
+        ],
+        "capital": "Brussels",
+        "altSpellings": [
+          "BE",
+          "België",
+          "Belgie",
+          "Belgien",
+          "Belgique",
+          "Kingdom of Belgium",
+          "Koninkrijk België",
+          "Royaume de Belgique",
+          "Königreich Belgien"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "population": 11319511,
+        "latlng": [
+          50.83333333,
+          4
+        ],
+        "demonym": "Belgian",
+        "area": 30528,
+        "gini": 33,
+        "timezones": [
+          "UTC+01:00"
+        ],
+        "borders": [
+          "FRA",
+          "DEU",
+          "LUX",
+          "NLD"
+        ],
+        "nativeName": "België",
+        "numericCode": "056",
+        "currencies": [
+          {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "nl",
+            "iso639_2": "nld",
+            "name": "Dutch",
+            "nativeName": "Nederlands"
+          },
+          {
+            "iso639_1": "fr",
+            "iso639_2": "fra",
+            "name": "French",
+            "nativeName": "français"
+          },
+          {
+            "iso639_1": "de",
+            "iso639_2": "deu",
+            "name": "German",
+            "nativeName": "Deutsch"
+          }
+        ],
+        "translations": {
+          "de": "Belgien",
+          "es": "Bélgica",
+          "fr": "Belgique",
+          "ja": "ベルギー",
+          "it": "Belgio",
+          "br": "Bélgica",
+          "pt": "Bélgica",
+          "nl": "België",
+          "hr": "Belgija",
+          "fa": "بلژیک"
+        },
+        "flag": "https://restcountries.eu/data/bel.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EU",
+            "name": "European Union",
+            "otherAcronyms": [],
+            "otherNames": []
+          }
+        ],
+        "cioc": "BEL"
+      },
+      "local": "Estocolmo",
+      "date": "11/2024",
+      "id": 4
+    },
+    {
+      "country": {
+        "name": "Argentina",
+        "topLevelDomain": [
+          ".ar"
+        ],
+        "alpha2Code": "AR",
+        "alpha3Code": "ARG",
+        "callingCodes": [
+          "54"
+        ],
+        "capital": "Buenos Aires",
+        "altSpellings": [
+          "AR",
+          "Argentine Republic",
+          "República Argentina"
+        ],
+        "region": "Americas",
+        "subregion": "South America",
+        "population": 43590400,
+        "latlng": [
+          -34,
+          -64
+        ],
+        "demonym": "Argentinean",
+        "area": 2780400,
+        "gini": 44.5,
+        "timezones": [
+          "UTC-03:00"
+        ],
+        "borders": [
+          "BOL",
+          "BRA",
+          "CHL",
+          "PRY",
+          "URY"
+        ],
+        "nativeName": "Argentina",
+        "numericCode": "032",
+        "currencies": [
+          {
+            "code": "ARS",
+            "name": "Argentine peso",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "es",
+            "iso639_2": "spa",
+            "name": "Spanish",
+            "nativeName": "Español"
+          },
+          {
+            "iso639_1": "gn",
+            "iso639_2": "grn",
+            "name": "Guaraní",
+            "nativeName": "Avañe'ẽ"
+          }
+        ],
+        "translations": {
+          "de": "Argentinien",
+          "es": "Argentina",
+          "fr": "Argentine",
+          "ja": "アルゼンチン",
+          "it": "Argentina",
+          "br": "Argentina",
+          "pt": "Argentina",
+          "nl": "Argentinië",
+          "hr": "Argentina",
+          "fa": "آرژانتین"
+        },
+        "flag": "https://restcountries.eu/data/arg.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "USAN",
+            "name": "Union of South American Nations",
+            "otherAcronyms": [
+              "UNASUR",
+              "UNASUL",
+              "UZAN"
+            ],
+            "otherNames": [
+              "Unión de Naciones Suramericanas",
+              "União de Nações Sul-Americanas",
+              "Unie van Zuid-Amerikaanse Naties",
+              "South American Union"
+            ]
+          }
+        ],
+        "cioc": "ARG"
+      },
+      "local": "Buenos Aires",
+      "date": "11/2025",
+      "id": 5
+    },
+    {
+      "country": {
+        "name": "Canada",
+        "topLevelDomain": [
+          ".ca"
+        ],
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN",
+        "callingCodes": [
+          "1"
+        ],
+        "capital": "Ottawa",
+        "altSpellings": [
+          "CA"
+        ],
+        "region": "Americas",
+        "subregion": "Northern America",
+        "population": 36155487,
+        "latlng": [
+          60,
+          -95
+        ],
+        "demonym": "Canadian",
+        "area": 9984670,
+        "gini": 32.6,
+        "timezones": [
+          "UTC-08:00",
+          "UTC-07:00",
+          "UTC-06:00",
+          "UTC-05:00",
+          "UTC-04:00",
+          "UTC-03:30"
+        ],
+        "borders": [
+          "USA"
+        ],
+        "nativeName": "Canada",
+        "numericCode": "124",
+        "currencies": [
+          {
+            "code": "CAD",
+            "name": "Canadian dollar",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          },
+          {
+            "iso639_1": "fr",
+            "iso639_2": "fra",
+            "name": "French",
+            "nativeName": "français"
+          }
+        ],
+        "translations": {
+          "de": "Kanada",
+          "es": "Canadá",
+          "fr": "Canada",
+          "ja": "カナダ",
+          "it": "Canada",
+          "br": "Canadá",
+          "pt": "Canadá",
+          "nl": "Canada",
+          "hr": "Kanada",
+          "fa": "کانادا"
+        },
+        "flag": "https://restcountries.eu/data/can.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "NAFTA",
+            "name": "North American Free Trade Agreement",
+            "otherAcronyms": [],
+            "otherNames": [
+              "Tratado de Libre Comercio de América del Norte",
+              "Accord de Libre-échange Nord-Américain"
+            ]
+          }
+        ],
+        "cioc": "CAN"
+      },
+      "local": "Toronto",
+      "date": "11/2026",
+      "id": 6
+    },
+    {
+      "country": {
+        "name": "Chile",
+        "topLevelDomain": [
+          ".cl"
+        ],
+        "alpha2Code": "CL",
+        "alpha3Code": "CHL",
+        "callingCodes": [
+          "56"
+        ],
+        "capital": "Santiago",
+        "altSpellings": [
+          "CL",
+          "Republic of Chile",
+          "República de Chile"
+        ],
+        "region": "Americas",
+        "subregion": "South America",
+        "population": 18191900,
+        "latlng": [
+          -30,
+          -71
+        ],
+        "demonym": "Chilean",
+        "area": 756102,
+        "gini": 52.1,
+        "timezones": [
+          "UTC-06:00",
+          "UTC-04:00"
+        ],
+        "borders": [
+          "ARG",
+          "BOL",
+          "PER"
+        ],
+        "nativeName": "Chile",
+        "numericCode": "152",
+        "currencies": [
+          {
+            "code": "CLP",
+            "name": "Chilean peso",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "es",
+            "iso639_2": "spa",
+            "name": "Spanish",
+            "nativeName": "Español"
+          }
+        ],
+        "translations": {
+          "de": "Chile",
+          "es": "Chile",
+          "fr": "Chili",
+          "ja": "チリ",
+          "it": "Cile",
+          "br": "Chile",
+          "pt": "Chile",
+          "nl": "Chili",
+          "hr": "Čile",
+          "fa": "شیلی"
+        },
+        "flag": "https://restcountries.eu/data/chl.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "PA",
+            "name": "Pacific Alliance",
+            "otherAcronyms": [],
+            "otherNames": [
+              "Alianza del Pacífico"
+            ]
+          },
+          {
+            "acronym": "USAN",
+            "name": "Union of South American Nations",
+            "otherAcronyms": [
+              "UNASUR",
+              "UNASUL",
+              "UZAN"
+            ],
+            "otherNames": [
+              "Unión de Naciones Suramericanas",
+              "União de Nações Sul-Americanas",
+              "Unie van Zuid-Amerikaanse Naties",
+              "South American Union"
+            ]
+          }
+        ],
+        "cioc": "CHI"
+      },
+      "local": "Santiago",
+      "date": "11/2027",
+      "id": 7
+    },
+    {
+      "country": {
+        "name": "Cuba",
+        "topLevelDomain": [
+          ".cu"
+        ],
+        "alpha2Code": "CU",
+        "alpha3Code": "CUB",
+        "callingCodes": [
+          "53"
+        ],
+        "capital": "Havana",
+        "altSpellings": [
+          "CU",
+          "Republic of Cuba",
+          "República de Cuba"
+        ],
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "population": 11239004,
+        "latlng": [
+          21.5,
+          -80
+        ],
+        "demonym": "Cuban",
+        "area": 109884,
+        "gini": null,
+        "timezones": [
+          "UTC-05:00"
+        ],
+        "borders": [],
+        "nativeName": "Cuba",
+        "numericCode": "192",
+        "currencies": [
+          {
+            "code": "CUC",
+            "name": "Cuban convertible peso",
+            "symbol": "$"
+          },
+          {
+            "code": "CUP",
+            "name": "Cuban peso",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "es",
+            "iso639_2": "spa",
+            "name": "Spanish",
+            "nativeName": "Español"
+          }
+        ],
+        "translations": {
+          "de": "Kuba",
+          "es": "Cuba",
+          "fr": "Cuba",
+          "ja": "キューバ",
+          "it": "Cuba",
+          "br": "Cuba",
+          "pt": "Cuba",
+          "nl": "Cuba",
+          "hr": "Kuba",
+          "fa": "کوبا"
+        },
+        "flag": "https://restcountries.eu/data/cub.svg",
+        "regionalBlocs": [],
+        "cioc": "CUB"
+      },
+      "local": "Havana",
+      "date": "11/2028",
+      "id": 8
+    },
+    {
+      "country": {
+        "name": "Japan",
+        "topLevelDomain": [
+          ".jp"
+        ],
+        "alpha2Code": "JP",
+        "alpha3Code": "JPN",
+        "callingCodes": [
+          "81"
+        ],
+        "capital": "Tokyo",
+        "altSpellings": [
+          "JP",
+          "Nippon",
+          "Nihon"
+        ],
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "population": 126960000,
+        "latlng": [
+          36,
+          138
+        ],
+        "demonym": "Japanese",
+        "area": 377930,
+        "gini": 38.1,
+        "timezones": [
+          "UTC+09:00"
+        ],
+        "borders": [],
+        "nativeName": "日本",
+        "numericCode": "392",
+        "currencies": [
+          {
+            "code": "JPY",
+            "name": "Japanese yen",
+            "symbol": "¥"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "ja",
+            "iso639_2": "jpn",
+            "name": "Japanese",
+            "nativeName": "日本語 (にほんご)"
+          }
+        ],
+        "translations": {
+          "de": "Japan",
+          "es": "Japón",
+          "fr": "Japon",
+          "ja": "日本",
+          "it": "Giappone",
+          "br": "Japão",
+          "pt": "Japão",
+          "nl": "Japan",
+          "hr": "Japan",
+          "fa": "ژاپن"
+        },
+        "flag": "https://restcountries.eu/data/jpn.svg",
+        "regionalBlocs": [],
+        "cioc": "JPN"
+      },
+      "local": "Tóquio",
+      "date": "11/2029",
+      "id": 9
+    },
+    {
+      "country": {
+        "name": "Israel",
+        "topLevelDomain": [
+          ".il"
+        ],
+        "alpha2Code": "IL",
+        "alpha3Code": "ISR",
+        "callingCodes": [
+          "972"
+        ],
+        "capital": "Jerusalem",
+        "altSpellings": [
+          "IL",
+          "State of Israel",
+          "Medīnat Yisrā'el"
+        ],
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "population": 8527400,
+        "latlng": [
+          31.5,
+          34.75
+        ],
+        "demonym": "Israeli",
+        "area": 20770,
+        "gini": 39.2,
+        "timezones": [
+          "UTC+02:00"
+        ],
+        "borders": [
+          "EGY",
+          "JOR",
+          "LBN",
+          "SYR"
+        ],
+        "nativeName": "יִשְׂרָאֵל",
+        "numericCode": "376",
+        "currencies": [
+          {
+            "code": "ILS",
+            "name": "Israeli new shekel",
+            "symbol": "₪"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "he",
+            "iso639_2": "heb",
+            "name": "Hebrew (modern)",
+            "nativeName": "עברית"
+          },
           {
             "iso639_1": "ar",
             "iso639_2": "ara",
@@ -59,45 +847,24 @@
           }
         ],
         "translations": {
-          "de": "Algerien",
-          "es": "Argelia",
-          "fr": "Algérie",
-          "ja": "アルジェリア",
-          "it": "Algeria",
-          "br": "Argélia",
-          "pt": "Argélia",
-          "nl": "Algerije",
-          "hr": "Alžir",
-          "fa": "الجزایر"
+          "de": "Israel",
+          "es": "Israel",
+          "fr": "Israël",
+          "ja": "イスラエル",
+          "it": "Israele",
+          "br": "Israel",
+          "pt": "Israel",
+          "nl": "Israël",
+          "hr": "Izrael",
+          "fa": "اسرائیل"
         },
-        "flag": "https://restcountries.eu/data/dza.svg",
-        "regionalBlocs": [
-          {
-            "acronym": "AU",
-            "name": "African Union",
-            "otherAcronyms": [],
-            "otherNames": [
-              "الاتحاد الأفريقي",
-              "Union africaine",
-              "União Africana",
-              "Unión Africana",
-              "Umoja wa Afrika"
-            ]
-          },
-          {
-            "acronym": "AL",
-            "name": "Arab League",
-            "otherAcronyms": [],
-            "otherNames": [
-              "جامعة الدول العربية",
-              "Jāmiʻat ad-Duwal al-ʻArabīyah",
-              "League of Arab States"
-            ]
-          }
-        ],
-        "cioc": "ALG"
+        "flag": "https://restcountries.eu/data/isr.svg",
+        "regionalBlocs": [],
+        "cioc": "ISR"
       },
-      "id": 1
+      "local": "Telaviv",
+      "date": "11/2030",
+      "id": 10
     }
   ]
 }

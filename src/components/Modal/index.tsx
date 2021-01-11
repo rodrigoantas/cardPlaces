@@ -12,17 +12,18 @@ interface ICard {
   local: string;
   date: string;
 }
+
 interface IModalProps {
   handleUpdateCard: (card: ICard) => void;
   editingCard: ICard;
   setIsOpen: () => void;
   isOpen: boolean;
-  sendData: (data: Omit<ICard, 'id' | 'country'>) => object;
+  sendData: (data: Omit<ICard, 'id' | 'country'>) => void;
 }
 
 const Modal: React.FC<IModalProps> = ({
   handleUpdateCard,
-  editingCard,
+  editingCard = {} as ICard,
   isOpen,
   setIsOpen,
   sendData,
@@ -33,20 +34,12 @@ const Modal: React.FC<IModalProps> = ({
     setModalStatus(isOpen);
   }, [isOpen]);
 
-  // const [editModalIsOpen, setEditModalIsOpen] = useState(false);
   const [selectedLocal, setSelectedLocal] = useState('');
   const [selectedDate, setSelectedDate] = useState('');
 
-  // eslint-disable-next-line no-param-reassign
-  // sendData = { local: selectedLocal, date: selectedDate };
-
-  // const data = useMemo(()=> {
-  //   { local: selectedLocal, date: selectedDate }
-  // }, [])
-
-  // const toggleModal = useCallback(() => {
-  //   setModalStatus(!modalStatus);
-  // }, [modalStatus]);
+  useEffect(() => {
+    sendData({ date: selectedDate, local: selectedLocal });
+  }, [sendData, selectedDate, selectedLocal]);
 
   const handleSubmit = useCallback(
     async (event: FormEvent<HTMLFormElement>): Promise<void> => {
@@ -57,18 +50,12 @@ const Modal: React.FC<IModalProps> = ({
       } catch (err) {
         console.log(err);
       }
-
-      // console.log(editingCard);
-      // console.log(sendData);
     },
     [editingCard, handleUpdateCard, sendData, selectedDate, selectedLocal],
   );
 
   return (
     <>
-      {/* <button type="button" onClick={toggleModal}>
-        open
-      </button> */}
       <ReactModal
         shouldCloseOnOverlayClick
         ariaHideApp={false}
@@ -93,11 +80,9 @@ const Modal: React.FC<IModalProps> = ({
           },
         }}
       >
-        {/* <button type="button" onClick={toggleModal}>
-          x
-        </button> */}
         <Form onSubmit={handleSubmit}>
           <h1>Editar cartão</h1>
+
           <div>
             <p>Local:</p>
             <input
@@ -105,7 +90,7 @@ const Modal: React.FC<IModalProps> = ({
               id="Local"
               name="Local"
               placeholder="Digite o local que quer conhecer"
-              onChange={event => setSelectedLocal(event.target.value)}
+              onChange={event => setSelectedLocal(event.currentTarget.value)}
               value={selectedLocal}
             />
           </div>
@@ -118,7 +103,7 @@ const Modal: React.FC<IModalProps> = ({
               id="Date"
               name="Date"
               placeholder="mês/ano"
-              onChange={event => setSelectedDate(event.target.value)}
+              onChange={event => setSelectedDate(event.currentTarget.value)}
               value={selectedDate}
             />
           </div>

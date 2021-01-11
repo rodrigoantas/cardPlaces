@@ -12,6 +12,12 @@ export const Form = styled.form`
     margin-bottom: 40px;
   }
 
+  span {
+    text-transform: uppercase;
+    color: #4f9419;
+    font-weight: bold;
+  }
+
   div {
     p {
       margin: 20px 0;
