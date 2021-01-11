@@ -4,6 +4,8 @@ import ReactModal from 'react-modal';
 import InputMask from 'react-input-mask';
 // import api from '../../services/api';
 
+import { Form } from './styles';
+
 interface ICard {
   id: number;
   country: { name: string; flag: string };
@@ -91,14 +93,13 @@ const Modal: React.FC<IModalProps> = ({
           },
         }}
       >
-        <h1>Editar cartão</h1>
-
         {/* <button type="button" onClick={toggleModal}>
           x
         </button> */}
-        <form onSubmit={handleSubmit}>
+        <Form onSubmit={handleSubmit}>
+          <h1>Editar cartão</h1>
           <div>
-            <p>Local</p>
+            <p>Local:</p>
             <input
               type="text"
               id="Local"
@@ -110,7 +111,7 @@ const Modal: React.FC<IModalProps> = ({
           </div>
 
           <div>
-            <p>Data</p>
+            <p>Data:</p>
             <InputMask
               type="text"
               mask="99/9999"
@@ -121,8 +122,10 @@ const Modal: React.FC<IModalProps> = ({
               value={selectedDate}
             />
           </div>
-          <button type="submit"> Editar </button>
-        </form>
+          <button type="submit">
+            <p>Editar</p>
+          </button>
+        </Form>
       </ReactModal>
     </>
   );

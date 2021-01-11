@@ -45,10 +45,14 @@ const LandingPage: React.FC = () => {
 
   const [editModalIsOpen, setEditModalIsOpen] = useState(false);
 
-  const sendData = useCallback(async (data: IsendData): Promise<void> => {
-    console.log(data);
-    setEditingData(data);
-  }, []);
+  const sendData = useCallback(
+    async (data: IsendData): Promise<void> => {
+      console.log(data);
+      await setEditingData(data);
+      console.log(editingData);
+    },
+    [editingData],
+  );
 
   const toggleEditModal = useCallback((): void => {
     setEditModalIsOpen(!editModalIsOpen);
