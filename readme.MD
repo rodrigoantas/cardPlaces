@@ -8,6 +8,7 @@
 
 ### Run this in your terminal:
 ```
+git clone https://github.com/rodrigoantas/cardPlaces
 yarn
 ```
 ### After that, you will need to turn on the database. run:
