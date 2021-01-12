@@ -8,12 +8,16 @@ export default createGlobalStyle`
   box-sizing: border-box;
 }
 body {
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased !important;
   font-family: 'Roboto'
 }
 
 button {
   cursor: pointer;
+}
+
+body html #root {
+  height: 100%;
 }
 
 `;

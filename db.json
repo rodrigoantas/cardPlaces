@@ -268,104 +268,6 @@
     },
     {
       "country": {
-        "name": "Belgium",
-        "topLevelDomain": [
-          ".be"
-        ],
-        "alpha2Code": "BE",
-        "alpha3Code": "BEL",
-        "callingCodes": [
-          "32"
-        ],
-        "capital": "Brussels",
-        "altSpellings": [
-          "BE",
-          "België",
-          "Belgie",
-          "Belgien",
-          "Belgique",
-          "Kingdom of Belgium",
-          "Koninkrijk België",
-          "Royaume de Belgique",
-          "Königreich Belgien"
-        ],
-        "region": "Europe",
-        "subregion": "Western Europe",
-        "population": 11319511,
-        "latlng": [
-          50.83333333,
-          4
-        ],
-        "demonym": "Belgian",
-        "area": 30528,
-        "gini": 33,
-        "timezones": [
-          "UTC+01:00"
-        ],
-        "borders": [
-          "FRA",
-          "DEU",
-          "LUX",
-          "NLD"
-        ],
-        "nativeName": "België",
-        "numericCode": "056",
-        "currencies": [
-          {
-            "code": "EUR",
-            "name": "Euro",
-            "symbol": "€"
-          }
-        ],
-        "languages": [
-          {
-            "iso639_1": "nl",
-            "iso639_2": "nld",
-            "name": "Dutch",
-            "nativeName": "Nederlands"
-          },
-          {
-            "iso639_1": "fr",
-            "iso639_2": "fra",
-            "name": "French",
-            "nativeName": "français"
-          },
-          {
-            "iso639_1": "de",
-            "iso639_2": "deu",
-            "name": "German",
-            "nativeName": "Deutsch"
-          }
-        ],
-        "translations": {
-          "de": "Belgien",
-          "es": "Bélgica",
-          "fr": "Belgique",
-          "ja": "ベルギー",
-          "it": "Belgio",
-          "br": "Bélgica",
-          "pt": "Bélgica",
-          "nl": "België",
-          "hr": "Belgija",
-          "fa": "بلژیک"
-        },
-        "flag": "https://restcountries.eu/data/bel.svg",
-        "regionalBlocs": [
-          {
-            "acronym": "EU",
-            "name": "European Union",
-            "otherAcronyms": [],
-            "otherNames": []
-          }
-        ],
-        "cioc": "BEL"
-      },
-      "local": "Estocolmo",
-      "date": "11/2024",
-      "id": 4
-    },
-    {
-      "country": {
         "name": "Argentina",
         "topLevelDomain": [
           ".ar"
@@ -774,6 +676,173 @@
       "local": "Paris",
       "date": "05/2022",
       "id": 11
+    },
+    {
+      "country": {
+        "name": "Sweden",
+        "topLevelDomain": [
+          ".se"
+        ],
+        "alpha2Code": "SE",
+        "alpha3Code": "SWE",
+        "callingCodes": [
+          "46"
+        ],
+        "capital": "Stockholm",
+        "altSpellings": [
+          "SE",
+          "Kingdom of Sweden",
+          "Konungariket Sverige"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "population": 9894888,
+        "latlng": [
+          62,
+          15
+        ],
+        "demonym": "Swedish",
+        "area": 450295,
+        "gini": 25,
+        "timezones": [
+          "UTC+01:00"
+        ],
+        "borders": [
+          "FIN",
+          "NOR"
+        ],
+        "nativeName": "Sverige",
+        "numericCode": "752",
+        "currencies": [
+          {
+            "code": "SEK",
+            "name": "Swedish krona",
+            "symbol": "kr"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "sv",
+            "iso639_2": "swe",
+            "name": "Swedish",
+            "nativeName": "svenska"
+          }
+        ],
+        "translations": {
+          "de": "Schweden",
+          "es": "Suecia",
+          "fr": "Suède",
+          "ja": "スウェーデン",
+          "it": "Svezia",
+          "br": "Suécia",
+          "pt": "Suécia",
+          "nl": "Zweden",
+          "hr": "Švedska",
+          "fa": "سوئد"
+        },
+        "flag": "https://restcountries.eu/data/swe.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EU",
+            "name": "European Union",
+            "otherAcronyms": [],
+            "otherNames": []
+          }
+        ],
+        "cioc": "SWE"
+      },
+      "local": "Estocolmo",
+      "date": "11/2022",
+      "id": 12
+    },
+    {
+      "country": {
+        "name": "Canada",
+        "topLevelDomain": [
+          ".ca"
+        ],
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN",
+        "callingCodes": [
+          "1"
+        ],
+        "capital": "Ottawa",
+        "altSpellings": [
+          "CA"
+        ],
+        "region": "Americas",
+        "subregion": "Northern America",
+        "population": 36155487,
+        "latlng": [
+          60,
+          -95
+        ],
+        "demonym": "Canadian",
+        "area": 9984670,
+        "gini": 32.6,
+        "timezones": [
+          "UTC-08:00",
+          "UTC-07:00",
+          "UTC-06:00",
+          "UTC-05:00",
+          "UTC-04:00",
+          "UTC-03:30"
+        ],
+        "borders": [
+          "USA"
+        ],
+        "nativeName": "Canada",
+        "numericCode": "124",
+        "currencies": [
+          {
+            "code": "CAD",
+            "name": "Canadian dollar",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          },
+          {
+            "iso639_1": "fr",
+            "iso639_2": "fra",
+            "name": "French",
+            "nativeName": "français"
+          }
+        ],
+        "translations": {
+          "de": "Kanada",
+          "es": "Canadá",
+          "fr": "Canada",
+          "ja": "カナダ",
+          "it": "Canada",
+          "br": "Canadá",
+          "pt": "Canadá",
+          "nl": "Canada",
+          "hr": "Kanada",
+          "fa": "کانادا"
+        },
+        "flag": "https://restcountries.eu/data/can.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "NAFTA",
+            "name": "North American Free Trade Agreement",
+            "otherAcronyms": [],
+            "otherNames": [
+              "Tratado de Libre Comercio de América del Norte",
+              "Accord de Libre-échange Nord-Américain"
+            ]
+          }
+        ],
+        "cioc": "CAN"
+      },
+      "local": "Toronto",
+      "date": "09/2023",
+      "id": 13
     }
   ]
 }

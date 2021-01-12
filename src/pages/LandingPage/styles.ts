@@ -18,6 +18,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
   form {
     display: flex;
     justify-content: center;
@@ -74,6 +75,57 @@ export const Container = styled.div`
 
       &:hover {
         background: ${shade(0.2, '#006c18')};
+      }
+    }
+  }
+
+  @media (max-width: 1500px) {
+    form {
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+
+      button {
+        margin: 30px 0 0 0;
+        width: auto;
+      }
+      div:nth-child(3) input {
+        width: 400px;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+
+        input {
+          width: 400px;
+        }
+        select {
+          width: 400px;
+        }
+
+        p {
+          margin: 15px 0;
+          text-align: center;
+        }
+      }
+    }
+    @media (max-width: 800px) {
+      form {
+        div:nth-child(3) input {
+          width: 250px;
+        }
+        div {
+          input {
+            width: 250px;
+          }
+          select {
+            width: 250px;
+          }
+        }
       }
     }
   }
