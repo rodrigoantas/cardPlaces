@@ -81,6 +81,30 @@ export const Container = styled.div`
 
   @media (max-width: 1500px) {
     form {
+      button {
+        width: 200px;
+        height: 40px;
+      }
+
+      div:nth-child(3) input {
+        width: 200px;
+        height: 40px;
+      }
+      div {
+        input {
+          width: 200px;
+          height: 40px;
+        }
+        select {
+          width: 200px;
+          height: 40px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1000px) {
+    form {
       flex-direction: column;
       display: flex;
       justify-content: center;
