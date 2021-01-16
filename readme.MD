@@ -1,4 +1,4 @@
-# ClubPetro Front-end Challenge
+# Front-end Challenge
 
 #### This is a crud, where you can add countries you wanna visist and set a date and city to it. You can also edit and delete the cards.
 
